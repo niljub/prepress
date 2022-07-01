@@ -20,7 +20,7 @@ public class Main {
         try (PDDocument doc = new PDDocument()) {
 
             //laden der Druckdatei
-            File file = new File("src/main/resources/test_data/color.pdf");
+                File file = new File("src/main/resources/test_data/color.pdf");
             PDDocument printfile = PDDocument.load(file);
 
 
